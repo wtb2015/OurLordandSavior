@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../Adder/adder.h
+
+/mnt/c/Users/wtb20/Desktop/cmake_tutorials/OurLordandSavior/main.cpp
+iostream
+-
+adder.h
+-
+
